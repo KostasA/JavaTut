@@ -9,7 +9,8 @@ public class App {
 		date1 = new Date(System.currentTimeMillis());
 		long DAY_IN_MS = 1000*60*60*24;
 		System.out.println(date1.toString());
-		date2 = new Date(System.currentTimeMillis()+(7*DAY_IN_MS));
+//		We create a date (two days) before the current date
+		date2 = new Date(System.currentTimeMillis()-(2*DAY_IN_MS));
 		System.out.println(date2.toString());
 		if(date1.compareTo(date2)>0)
 		{
@@ -19,9 +20,6 @@ public class App {
 		{
 			System.out.println("Date1 is before Date2");
 		}
-		
-		
-
 	}
 
 }
