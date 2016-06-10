@@ -1,8 +1,13 @@
 package StaticDemo;
 
 public class MyTestClass {
-	
+	/**
+	 * static means it belongs to the class not an instance,
+	 * this means that there is only one copy of that variable/method
+	 * shared between all instances of a particular Class
+	 */
 	public static int variable = 0 ;
+//	public int variable = 0; 
 
 	public static void main(String[] args) {
 		
