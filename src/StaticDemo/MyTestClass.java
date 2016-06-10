@@ -7,10 +7,6 @@ public class MyTestClass {
 	 * shared between all instances of a particular Class
 	 */
 	
-	/*
-	 * I took this example from stackoverflow
-	 * http://stackoverflow.com/questions/13772827/difference-between-static-and-final
-	 */
 	public static int variable = 0 ;
 //	public int variable = 0; 
 
